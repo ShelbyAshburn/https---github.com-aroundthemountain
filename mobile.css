@@ -1,1 +1,19 @@
 /*----*/
+/*mobile friendly*/
+@media all and (max-width: 500px){
+  body{
+    background-image: none ;
+    background-color: rgba(248, 3, 3, 0.9);
+    font-size: 50px;
+  }
+  .nav_menu{
+    font-size: 50px;
+  }
+  .flying{
+    display: table-cell;
+    max-width: 100%;
+    height: auto;
+    padding: 5em,20em,0em,5em;
+  }  
+  table{
+    font-size: 80px;
