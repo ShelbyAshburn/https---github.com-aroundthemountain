@@ -1,5 +1,5 @@
 /*----*/
-html, body{
+html{
   width: 100%;
   height:100%;
   background-image: linear-gradient(to bottom right,black,rgb(99, 99, 121));
@@ -17,26 +17,45 @@ html, body{
   text-decoration-line: underline;
 }
 
+p{
+  color:rgba(9, 236, 180, 0.9);
+  text-shadow: 2em, 4em rgba(58, 19, 201, 0.9);
+}
 /*landing page paragraph-may delete*/
 .main_para{
-display: block;
-margin: auto;
-padding: 50px;
-font-size: 2em;
-font-family:Georgia, 'Times New Roman', Times, sans-serif;
-color: rgba(200, 200, 200, 0.9);
+  display: block;
+  margin: auto;
+  padding: 50px;
+  font-size: 2em;
+  font-family:Georgia, 'Times New Roman', Times, sans-serif;
+  color: rgba(9, 236, 180, 0.9);
 
 }
 
 /*menu bar displayed at the top.*/
 .menu_bar{
   display: inline;
-  text-align: center;
   font-size: 2em;
-  list-style-type: none;
+  list-style-type: square;
   margin:0%;
   padding:0%;
   display: block;
   width:60px;
   
+}
+
+.about, .resume{
+  background-color: rgb(103, 131, 2);
+}
+.apps, .blog{
+  background-color: rgba(58, 19, 201, 0.9);
+}
+h1{
+  color: rgb(132, 171, 230);
+  
+}
+
+#cle{
+  display: block;
+  padding: 10em;
 }
