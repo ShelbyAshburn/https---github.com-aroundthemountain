@@ -1,19 +1,22 @@
 /*----*/
 /*mobile friendly*/
-@media all and (max-width: 500px){
+@media all and (max-width: 600px){
   body{
     background-image: none ;
-    background-color: rgba(248, 3, 3, 0.9);
+    background-color: rgba(210, 222, 250, 0.9);
     font-size: 10px;
+  }
+
+  p{
+    font-size: 1em;
   }
   .menu_bar{
     font-size: 10px;
   }
-  .flying{
+  .mutt{
     display: table-cell;
     max-width: 100%;
     height: auto;
     padding: 5em,20em,0em,5em;
   }  
-  table{
-    font-size: 80px;
+  
