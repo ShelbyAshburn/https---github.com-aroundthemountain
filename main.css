@@ -19,15 +19,12 @@ html{
 
 p{
   color:rgba(10, 12, 12, 0.9);
-  text-shadow: 2em, 4em rgba(58, 19, 201, 0.9);
-
   display: block;
   margin: auto;
   padding: 50px;
   font-size: 2em;
   font-family:"Helvetica", "Times New Roman", "Times", "sans-serif";
-  color: rgba(10, 12, 12, 0.9);
-
+  
 }
 
 /*nav bar displayed at the top.*/

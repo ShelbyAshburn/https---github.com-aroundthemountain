@@ -8,10 +8,10 @@
   }
 
   p{
-    font-size: 1em;
+    font-size: 1.5em;
   }
   .menu_bar{
-    font-size: 10px;
+    font-size: 20px;
   }
   .mutt{
     display: table-cell;
@@ -19,4 +19,4 @@
     height: auto;
     padding: 5em,20em,0em,5em;
   }  
-  
+} 
