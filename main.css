@@ -2,7 +2,7 @@
 html{
   width: 100%;
   height:100%;
-  background-image: linear-gradient(to bottom right,rgb(221, 230, 245),rgb(29, 115, 243));
+  background-image: linear-gradient(to bottom right,rgb(221, 230, 245),rgb(77, 110, 160));
   background-size:cover;
 }
 /*big. across the top. keep on top when scrolling but shrink*/
@@ -83,7 +83,7 @@ h1{
 }
 
 #mutt{
-  display: block;
+  display: inline-block;
   max-width: 100%;
   height: 450px;
   padding: 2em;
