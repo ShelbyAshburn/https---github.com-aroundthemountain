@@ -49,6 +49,10 @@ p{
   padding: 50px;
 }
 
+#about-para.{
+
+
+}
 /*nav bar displayed at the top.*/
 .button-menu{
   box-shadow: 3px 4px 0px 0px #899599;
@@ -137,7 +141,7 @@ body {
   position: absolute;
   width: 300px;
   height: 187px;
-  top: 20px;
+  top: 10px;
   left: 10px;
   right: 10px;
   background-size: cover;
@@ -156,28 +160,17 @@ span {
   transform: rotateY(  0deg) translateZ(430px); }
 .carousel__face:nth-child(2) { 
   background-image: url("images/Mutt Cutts.jpg");
-    transform: rotateY( 40deg) translateZ(430px); }
+    transform: rotateY( 72deg) translateZ(430px); }
 .carousel__face:nth-child(3) {
   background-image:url("images/CLE sign.jpg");
-  transform: rotateY( 80deg) translateZ(430px); }
+  transform: rotateY( 144deg) translateZ(430px); }
 .carousel__face:nth-child(4) {
   background-image:url("images/Motorcycle.jpg");
-  transform: rotateY(120deg) translateZ(430px); }
+  transform: rotateY(216deg) translateZ(430px); }
 .carousel__face:nth-child(5) { 
-  background-image: url("images/waterfall.jpg");
- transform: rotateY(160deg) translateZ(430px); }
-.carousel__face:nth-child(6) { 
-  background-image: url("images/fall\ folage.jpg");
- transform: rotateY(200deg) translateZ(430px); }
-.carousel__face:nth-child(7) { 
-  background-image: url("images/crevace.jpg");
- transform: rotateY(240deg) translateZ(430px); }
-.carousel__face:nth-child(8) {
-  background-image: url("images/river\ bank.jpg");
-  transform: rotateY(280deg) translateZ(430px); }
-.carousel__face:nth-child(9) {
   background-image: url("images/Pano.jpg");
-  transform: rotateY(320deg) translateZ(430px); }
+ transform: rotateY(288deg) translateZ(430px); }
+
 
 
 
