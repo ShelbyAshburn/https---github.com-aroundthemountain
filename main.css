@@ -2,7 +2,7 @@
 html{
   width: 100%;
   height:100%;
-  background-image: linear-gradient(to bottom right,rgb(221, 230, 245),rgb(77, 110, 160));
+  background-image: linear-gradient(to bottom right,rgb(221, 230, 245),rgb(127, 142, 165));
   background-size:cover;
 }
 /*big. across the top. keep on top when scrolling but shrink*/
@@ -49,10 +49,8 @@ p{
   padding: 50px;
 }
 
-#about-para.{
 
 
-}
 /*nav bar displayed at the top.*/
 .button-menu{
   box-shadow: 3px 4px 0px 0px #899599;
@@ -82,14 +80,7 @@ h1{
   color: rgba(8, 33, 71, 1.0);
   
 }
-
-#mutt{
-  display: inline-block;
-  max-width: 100%;
-  height: 450px;
-  padding: 2em;
   
-}
 
 .testbutton{
   box-shadow: 3px 4px 0px 0px #899599;
@@ -106,14 +97,7 @@ h1{
 	text-decoration:none;
 	text-shadow:0px 1px 0px #e1e2ed;
 }
-.testbutton:hover {
-	background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
-	background-color:#bab1ba;
-}
-.testbutton:active {
-	position:relative;
-	top:1px;
-}
+
 
 /*carosel frames*/
 body {
@@ -127,7 +111,7 @@ body {
   position: relative;
   width: 320px;
   margin: 100px auto 0 auto;
-  perspective: 1000px;
+  perspective: 2000px;
 }
 
 .carousel {
@@ -168,17 +152,16 @@ span {
   background-image:url("images/Motorcycle.jpg");
   transform: rotateY(216deg) translateZ(430px); }
 .carousel__face:nth-child(5) { 
-  background-image: url("images/Pano.jpg");
+  background-image: url("images/rock3.jpg");
  transform: rotateY(288deg) translateZ(430px); }
 
 
 
-
-@keyframes rotate360 {
+ @keyframes rotate360 {
   from {
     transform: rotateY(0deg);
   }
   to {
     transform: rotateY(-360deg);
   }
-}
+} 

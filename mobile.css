@@ -13,10 +13,15 @@
   .menu_bar{
     font-size: 1.5em;
   }
-  #mutt{
-    display: block;
-    max-width: 100%;
-    height: auto;
-    padding: 5em,20em,0em,5em;
-  }  
-} 
+  
+ @keyframes rotate360 {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(-360deg);
+  }
+}
+
+
+}
