@@ -2,20 +2,20 @@
 html{
   width: 100%;
   height:100%;
-  background-image: linear-gradient(to bottom right,rgb(221, 230, 245),rgb(127, 142, 165));
+  background-image: linear-gradient(to bottom right,rgb(0, 0, 0),rgb(33, 40, 51));
   background-size:cover;
 }
 /*big. across the top. keep on top when scrolling but shrink*/
 .header{
-  background-color:black;
+  background-color:rgb(11, 10, 34);
   display: block;
   block-size: 1.33em;
   border-radius:50%;
   text-align: center;
-  text-shadow: 2px 4px rgba(125,125,125,1.0);
-  font-size: 8em;
-  color: rgb(223, 218, 248);
-  font-family: "Helvetica","Lucida Handwriting" ,"Verdana", "serif" ;
+  text-shadow: 2px 4px rgb(206, 209, 250);
+  font-size: 7em;
+  color: rgb(16, 110, 252);
+  font-family: "Helvetica","Lucida Handwriting" ,"Verdana", "sans-serif" ;
   text-decoration-line: underline;
 }
 
@@ -26,16 +26,16 @@ html{
   background-color: black;
   border-radius: 50%;
   text-align:center;
-  font-size: 2em;
-  color: rgb(223, 218, 248);
-  font-family:"Helvetica","Lucida Handwriting" ,"Verdana", "serif" ; 
+  font-size: 1.8em;
+  color: rgb(226, 223, 252);
+  font-family:"Helvetica","Lucida Handwriting" ,"Verdana", "sans-serif" ; 
 
 
 
 }
 
 p{
-  color:black;
+  color:rgb(252, 247, 247);
   display: block;
   margin: auto;
   padding: 50px;
@@ -45,7 +45,7 @@ p{
 }
 
 #main-para{
-  color:black;
+  color:rgb(247, 242, 242);
   padding: 50px;
 }
 
@@ -60,7 +60,7 @@ p{
 	border:1px solid #d6bcd6;
 	display:inline-block;
 	cursor:pointer;
-	color:#3a8a9e;
+	color:#0b0d0e;
 	font-family:Arial;
 	font-size:17px;
 	padding:7px 50px;
@@ -77,7 +77,7 @@ p{
 }
 
 h1{
-  color: rgba(8, 33, 71, 1.0);
+  color: rgb(107, 161, 243);
   
 }
   
@@ -90,7 +90,7 @@ h1{
 	border:1px solid #d6bcd6;
 	display:inline-block;
 	cursor:pointer;
-	color:#3a8a9e;
+	color:#090b0c;
 	font-family:Arial;
 	font-size:17px;
 	padding:7px 50px;
@@ -102,7 +102,7 @@ h1{
 /*carosel frames*/
 body {
   margin: 0;
-  background: lightgray;
+  background: rgb(3, 3, 3);
   text-align: center;
   font-family: sans-serif;
   color: #fefefe;
@@ -129,7 +129,7 @@ body {
   left: 10px;
   right: 10px;
   background-size: cover;
-  box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);
+  box-shadow:inset 0 0 0 2000px rgba(105, 104, 104, 0.1);
   display: flex;
 }
 
@@ -144,17 +144,19 @@ span {
   transform: rotateY(  0deg) translateZ(430px); }
 .carousel__face:nth-child(2) { 
   background-image: url("images/Mutt Cutts.jpg");
-    transform: rotateY( 72deg) translateZ(430px); }
+  transform: rotateY( 60deg) translateZ(430px); }
 .carousel__face:nth-child(3) {
   background-image:url("images/CLE sign.jpg");
-  transform: rotateY( 144deg) translateZ(430px); }
+  transform: rotateY( 120deg) translateZ(430px); }
 .carousel__face:nth-child(4) {
   background-image:url("images/Motorcycle.jpg");
-  transform: rotateY(216deg) translateZ(430px); }
+  transform: rotateY(180deg) translateZ(430px); }
 .carousel__face:nth-child(5) { 
   background-image: url("images/rock3.jpg");
- transform: rotateY(288deg) translateZ(430px); }
-
+  transform: rotateY(240deg) translateZ(430px); }
+.carousel__face:nth-child(6) { 
+  background-image: url("images/underCrane.jpg");
+  transform: rotateY(300deg) translateZ(430px); }
 
 
  @keyframes rotate360 {
