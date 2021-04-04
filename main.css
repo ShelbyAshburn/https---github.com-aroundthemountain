@@ -159,6 +159,42 @@ span {
   transform: rotateY(300deg) translateZ(430px); }
 
 
+#white-box {
+  background-color:white ;
+  display: block ;
+  color:black;
+  padding: 30px, 1px, 30px, 1px ;
+  border: 10px solid rgb(250, 13, 13) ;
+}
+
+#baba{
+  color:black;
+}
+
+
+.white-box {
+  width:580px;
+  height:750px;
+  background: white;
+  position: absolute;
+  top:16%;
+  left:35%;
+  border-style:ridge;
+  border-radius: 2px;
+}
+
+.white-box::after {
+  content: "";
+  position: absolute;
+  bottom: -30px;
+  background: rgb(43, 42, 42);
+  width: 90%;
+  height:4px;
+  left:3%;
+  border-radius:50%;
+  filter: blur(3px);
+}
+
  @keyframes rotate360 {
   from {
     transform: rotateY(0deg);
