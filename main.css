@@ -45,6 +45,7 @@ p{
   height: auto;
   /*background-size: cover;*/
 }
+
 /*shelbyashburn.com*/
 .header{
   display: block;
@@ -153,6 +154,7 @@ span {
 #contact-p{
   color:black;
   position:relative;
+  margin-top: 25px;
 }
 
 /*contact email button*/
@@ -160,7 +162,7 @@ span {
   box-shadow: 3px 4px 0px 0px #899899;
 	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
 	background-color:#ededed;
-	border-radius:7px;
+	border-radius:12px;
 	border:1px solid #d6bcd6;
 	display:inline-flex;
 	cursor:pointer;
@@ -170,13 +172,13 @@ span {
 	padding:7px 50px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #e1e2ed;
-
+  margin-top: 400px;
 }
 
 
 .white-box {
   width:550px;
-  height:550px;
+  height:175px;
   background: white;
   position: absolute;
   top:16%;
@@ -194,7 +196,7 @@ span {
   height:4px;
   left:3%;
   border-radius:50%;
-  filter: blur(3px);
+  filter: blur(1px);
 }
 /**/
 
