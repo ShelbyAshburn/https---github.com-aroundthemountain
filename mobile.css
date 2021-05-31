@@ -1,9 +1,24 @@
 /*----*/
 /*mobile friendly*/
+@media all and (max-width: 950px){
+  .header{
+    font-size: 3.0em;
+   
+  }
+  body{
+    background-image: url(images/blue-1.jpg);
+    background-color: black;
+}  
+
+  #hide_red{
+    display: none;
+
+  }
+
+}
 @media all and (max-width: 600px){
   body{
-    background-image: none ;
-    background-color: rgba(60, 60, 61, 0.9);
+    background-color: none;
     
   }
 
@@ -13,7 +28,7 @@
   .menu_bar{
     font-size: 1.5em;
   }
-  
+/*---------about page----------*/
  @keyframes rotate360 {
   from {
     transform: rotateY(0deg);
