@@ -19,7 +19,7 @@
   }
 
 }
-@media all and (max-width: 600px){
+@media all and (max-width: 500px){
   body{
     background-color: none;
     
@@ -28,11 +28,20 @@
   p{
     font-size: 1.5em;
   }
-  
+/*main page*/ 
+  #tagline{
+    padding-top: 20px;
   }
-  /*.menu_bar{
-    font-size: 1.5em;
+  .header{
+    padding-bottom:40px;
   }
+/*move topnav to the bottom of the page or under h3*/
+  #topnav{
+    position: relative;
+
+  }
+
+}
 /*---------about page----------*/
  @keyframes rotate360 {
   from {
