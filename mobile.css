@@ -36,21 +36,34 @@
     padding-bottom:40px;
   }
 /*move topnav to the bottom of the page or under h3*/
-  #topnav{
-    position: relative;
+  #top-buttons{
+    display:inline-flex;
+    float: inline-end;
+    position:relative;
+    overflow:scroll;
+    bottom:40px;
 
   }
 
 }
 /*---------about page----------*/
- @keyframes rotate360 {
-  from {
-    transform: rotateY(0deg);
+  .carousel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d; 
+    animation: rotate360 40s infinite forwards linear;
   }
-  to {
-    transform: rotateY(-360deg);
-  }
-}
+  
+  
+  @keyframes rotate360 {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(-360deg);
+    }
+
 
 
 }
