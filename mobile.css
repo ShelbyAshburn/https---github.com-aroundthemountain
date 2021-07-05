@@ -2,46 +2,41 @@
 /*mobile friendly*/
 @media all and (max-width: 950px){
   .header{
-    font-size: 3.0em;
+    font-size: 3.0rem;
    
   }
   body{
-    background-image: url(images/blue-1.jpg);
+    background-image: url(images/red_keyboard.jpg);
     background-color: black;
-}  
-
-  #hide_red{
-    display: none;
-
-  }
-  .blue-board{
+  }  
+  #hide-red{
     display: none;
   }
-
+  #icons{
+    position:absolute;
+    bottom:0px;
+  }
+  
 }
 @media all and (max-width: 500px){
-  body{
-    background-color: none;
-    
-  }
+  
 
   p{
     font-size: 1.5em;
   }
-/*main page*/ 
+/*main page*/
+  
+
   #tagline{
     padding-top: 20px;
   }
   .header{
+    background-color: black;
     padding-bottom:40px;
   }
-/*move topnav to the bottom of the page or under h3*/
+/*top nav to bar and burger*/
   #top-buttons{
-    display:inline-flex;
-    float: inline-end;
-    position:relative;
-    overflow:scroll;
-    bottom:40px;
+    
 
   }
 
