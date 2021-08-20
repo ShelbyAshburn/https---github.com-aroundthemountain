@@ -1,5 +1,4 @@
 /*----------MAIN----------*/
-/*re-orginize for ease of edits*/
 
 /*----------global styles----------*/
 p{
@@ -175,35 +174,15 @@ span {
 }
 
 
-.white-box {
-  width:550px;
-  height:175px;
-  background: white;
-  position: absolute;
-  top:16%;
-  left:35%;
-  border-style:ridge;
-  border-radius: 2px;
-}
-
-.white-box::after {
-  content: "";
-  position: absolute;
-  bottom: -30px;
-  background: rgb(43, 42, 42);
-  width: 90%;
-  height:4px;
-  left:3%;
-  border-radius:50%;
-  filter: blur(1px);
-}
-/**/
-
-
-/*----------apps page----------*/
+/*----------projects page----------*/
 
 .blue-board{
 width: 100%;
 height: auto;
 
+}
+
+#projectsList{
+  list-style-type: none;
+  font-size: large;
 }
