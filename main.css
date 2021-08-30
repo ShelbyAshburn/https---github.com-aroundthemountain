@@ -186,3 +186,24 @@ height: auto;
   list-style-type: none;
   font-size: large;
 }
+/*mobile menu and linkdin link*/
+.fas{
+  position: relative;
+  display: none;
+  color:rgb(215, 77, 77);
+  font-size: 50px;
+}
+
+.fas:hover{
+  color:rgb(70, 11, 240);
+}
+.fab{
+  position:relative;
+  display: none;
+  color:rgb(215, 77, 77);
+  font-size: 50px;
+}
+
+.fab:hover{
+  color:rgb(70, 10, 240);
+}

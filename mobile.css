@@ -19,8 +19,12 @@
   
 }
 @media all and (max-width: 500px){
-  
-
+  .fas{
+    display: inline;
+  }
+  .fab{
+    display: inline;
+  }
   p{
     font-size: 1.5em;
   }
@@ -28,22 +32,26 @@
   
 
   #tagline{
-    padding-top: 20px;
+    padding-top: 5px;
+    position:relative;
   }
   .header{
     background-color: black;
     padding-bottom:40px;
   }
   
-/*projects page*/
+  /*projects page*/
 
-/*top nav to bar and burger*/
-  #top-buttons{
+  /*top nav to bottom*/
+  .navigation{
+    display: none;
     
 
   }
 
 }
+
+
 /*---------about page----------*/
   .carousel {
     position: absolute;
