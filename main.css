@@ -176,34 +176,28 @@ span {
 
 /*----------projects page----------*/
 
-.blue-board{
-width: 100%;
-height: auto;
-
-}
 
 #projectsList{
   list-style-type: none;
   font-size: large;
 }
 /*mobile menu and linkdin link*/
-.fas{
+.icons{
+  position: fixed;
+  bottom:0;
+  display: none;
+  color:rgb(230, 118, 118);
+  font-size: 50px;
+}
+
+.icons:hover{
+  color:rgb(129, 45, 49);
+  
+  
+}
+.linkedIn{
   position: relative;
-  display: none;
-  color:rgb(215, 77, 77);
+  display: inline;
+  color:rgb(129, 45, 49);
   font-size: 50px;
-}
-
-.fas:hover{
-  color:rgb(70, 11, 240);
-}
-.fab{
-  position:relative;
-  display: none;
-  color:rgb(215, 77, 77);
-  font-size: 50px;
-}
-
-.fab:hover{
-  color:rgb(70, 10, 240);
 }

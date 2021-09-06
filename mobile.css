@@ -5,28 +5,25 @@
     font-size: 3.0rem;
    
   }
-  body{
+  .main{
     background-image: url(images/red_keyboard.jpg);
     background-color: black;
   }  
   #hide-red{
     display: none;
   }
-  #icons{
-    position:absolute;
-    bottom:0px;
-  }
   
 }
 @media all and (max-width: 500px){
-  .fas{
-    display: inline;
-  }
-  .fab{
-    display: inline;
+  .icons{
+    display: table-footer-group;
+    position: fixed;
+    padding-bottom:2rem;
+    padding-left:2rem;
+    
   }
   p{
-    font-size: 1.5em;
+    font-size: 1.5rem;
   }
 /*main page*/
   
@@ -49,9 +46,6 @@
 
   }
 
-}
-
-
 /*---------about page----------*/
   .carousel {
     position: absolute;
@@ -60,8 +54,19 @@
     transform-style: preserve-3d; 
     animation: rotate360 40s infinite forwards linear;
   }
+  .carousel__face { 
+    position: absolute;
+    width: 280px;
+    height: 170px;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    background-size: cover;
+    box-shadow:inset 0 0 0 1000px rgba(105, 104, 104, 0.1);
+    display: flex;
+  }
   
-  
+
   @keyframes rotate360 {
     from {
       transform: rotateY(0deg);
@@ -69,7 +74,64 @@
     to {
       transform: rotateY(-360deg);
     }
+  }
 
+
+}
+
+/*--very small screens--*/
+@media all and (max-width: 320px){
+  .icons{
+    display: table-footer-group;
+    position: fixed,center;
+    font-size: 40px;
+    padding-bottom:2rem;
+    padding-left:1rem;
+    
+  }
+  p{
+    font-size: 1.5em;
+  }
+/*main page*/
+  
+
+  #tagline{
+    padding-top: 5px;
+    position:relative;
+  }
+  .header{
+    background-color: black;
+    padding-bottom:40px;
+  }
+  
+/*---projects page---*/
+
+/*---top nav to bottom---*/
+
+/*---about page---*/
+  .carousel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d; 
+    animation: rotate360 40s infinite forwards linear;
+  }
+  
+  .container {
+    position: relative;
+    width: 120px;
+    margin: 20px auto 0 auto;
+    perspective: 2000px;
+  }
+
+  @keyframes rotate360 {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(-360deg);
+    }
+  }
 
 
 }
