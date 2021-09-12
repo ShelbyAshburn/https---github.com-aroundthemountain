@@ -39,7 +39,8 @@ p{
 
 
 /*----------index landing page--------*/
-.red-board{
+.mountain{
+  background-size: cover;
   max-width: 100%;
   height: auto;
   
@@ -48,43 +49,42 @@ p{
 /*shelbyashburn.com*/
 .header{
   display: block;
+  background-color: transparent ;
   block-size: 0.7em;
   text-align: center;
   margin-top: 5px;
-  text-shadow: 2px 4px rgb(102, 69, 69);
+  text-shadow: 2px 4px rgb(178, 208, 245);
   font-size: 6em;
   color: rgba(242, 242, 242, 0.7);
   font-family: "Helvetica","Lucida Handwriting" ,"Verdana", "sans-serif" ;
-  text-decoration-line: underline;
 }
-
 /*digital portfolio*/
 #tagline{
   display: block;
   writing-mode: horizontal-tb;
   block-size: auto;
-  background-color: black;
-  border-radius: 50%;
+  background-color:transparent;
   text-align:center;
   font-size: 1.5em;
   padding: 0px;
-  color: rgba(242, 242, 242, 0.7);
+  color: rgba(250, 249, 253, 0.8);
   font-family:"Helvetica","Lucida Handwriting" ,"Verdana", "sans-serif" ;
 
 }
 
 
-/*----------about page----------*/
+/*----------about----------*/
 
-/*carosel frames*/
-/*make sure this is in the right place*/
+
+
 body {
   margin: 0;
-  background: rgb(3, 3, 3);
+  background: rgb(0, 178, 79);
   text-align: center;
   font-family: sans-serif;
   color: #fefefe;
 }
+/* carousel frames*/
 .container {
   position: relative;
   width: 320px;
@@ -147,10 +147,10 @@ span {
 
 
 
-/*----------contact page----------*/
+/*----------contact----------*/
 
 #contact-p{
-  color:black;
+  color:rgba(30, 85, 5, 0.877);
   position:relative;
   margin-top: 25px;
 }
@@ -174,7 +174,7 @@ span {
 }
 
 
-/*----------projects page----------*/
+/*----------projects----------*/
 
 
 #projectsList{
@@ -185,19 +185,19 @@ span {
 .icons{
   position: fixed;
   bottom:0;
-  display: none;
-  color:rgb(230, 118, 118);
+  display:none;
+  color:rgb(5, 60, 45);
   font-size: 50px;
 }
 
 .icons:hover{
-  color:rgb(129, 45, 49);
+  color:rgb(252, 249, 250);
   
   
 }
 .linkedIn{
   position: relative;
   display: inline;
-  color:rgb(129, 45, 49);
+  color:rgb(5, 60, 45);
   font-size: 50px;
 }
