@@ -1,6 +1,16 @@
 /*----------MAIN----------*/
 
 /*----------global styles----------*/
+body {
+  margin: 0;
+  background: rgb(0, 178, 79);
+  text-align: center;
+  font-family: sans-serif;
+  color: #fefefe;
+}
+
+
+
 p{
   color:rgba(242, 242, 242, 1.0);
   display: block;
@@ -11,61 +21,38 @@ p{
   
 }
 
-/*nav bar displayed at the top. all pages*/
-.button-menu{
-  box-shadow: 3px 4px 0px 0px #899599;
-	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
-	background-color:#ededed;
-	border-radius:15px;
-	border:1px solid #d6bcd6;
-	display:inline-block;
-	cursor:pointer;
-	color:#0b0d0e;
-	font-family:Arial;
-	font-size:17px;
-	padding:7px 50px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #e1e2ed;
-}
-.button-menu:hover {
-	background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
-	background-color:#bab1ba;
-}
-.button-menu:active {
-	position:relative;
-	top:1px;
-}
-
-
-
 /*----------index landing page--------*/
 .mountain{
   background-size: cover;
   max-width: 100%;
-  height: auto;
+  height: 100%;
   
 }
 
-/*shelbyashburn.com*/
+/*-----arounthemountain.com-----*/
 .header{
   display: block;
   background-color: transparent ;
+  position:absolute;
+  top: 100px; left: 21%;
   block-size: 0.7em;
   text-align: center;
-  margin-top: 5px;
+  margin-top: 0px;
   text-shadow: 2px 4px rgb(178, 208, 245);
   font-size: 6em;
   color: rgba(242, 242, 242, 0.7);
   font-family: "Helvetica","Lucida Handwriting" ,"Verdana", "sans-serif" ;
 }
-/*digital portfolio*/
-#tagline{
+/*-------digital portfolio-------*/
+.tagline{
   display: block;
+  position:absolute;
+  top:170px; left:35%;
   writing-mode: horizontal-tb;
   block-size: auto;
   background-color:transparent;
   text-align:center;
-  font-size: 1.5em;
+  font-size: 2.0em;
   padding: 0px;
   color: rgba(250, 249, 253, 0.8);
   font-family:"Helvetica","Lucida Handwriting" ,"Verdana", "sans-serif" ;
@@ -75,15 +62,6 @@ p{
 
 /*----------about----------*/
 
-
-
-body {
-  margin: 0;
-  background: rgb(0, 178, 79);
-  text-align: center;
-  font-family: sans-serif;
-  color: #fefefe;
-}
 /* carousel frames*/
 .container {
   position: relative;
@@ -178,6 +156,7 @@ span {
 
 
 #projectsList{
+  display: inline-block;
   list-style-type: none;
   font-size: large;
 }

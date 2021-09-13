@@ -6,12 +6,9 @@
    
   }
   .main{
-    background-image: url(images/red_keyboard.jpg);
-    background-color: black;
+    
   }  
-  #hide-red{
-    display: none;
-  }
+  
   
 }
 @media all and (max-width: 500px){
@@ -37,12 +34,6 @@
     padding-bottom:40px;
   }
   
-  /*projects page*/
-
-  /*top nav to bottom*/
-  .navigation{
-    display: none;
-    
 
   }
 
@@ -104,9 +95,6 @@
     padding-bottom:40px;
   }
   
-/*---projects page---*/
-
-/*---top nav to bottom---*/
 
 /*---about page---*/
   .carousel {
