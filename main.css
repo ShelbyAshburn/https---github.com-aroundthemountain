@@ -2,11 +2,11 @@
 
 /*----------global styles----------*/
 body {
+  background-color: #0b0d0e;
   margin: 0;
-  background: rgb(0, 178, 79);
   text-align: center;
   font-family: sans-serif;
-  color: #fefefe;
+  
 }
 
 
@@ -24,6 +24,7 @@ p{
 /*----------index landing page--------*/
 .mountain{
   background-size: cover;
+  background-image: linear-gradient(180deg, rgba(125,125,123,0,0),rgba(055,055,055,0.6), url(images/pexels-pixabay-326235.jpg));
   max-width: 100%;
   height: 100%;
   
@@ -61,67 +62,6 @@ p{
 
 
 /*----------about----------*/
-
-/* carousel frames*/
-.container {
-  position: relative;
-  width: 320px;
-  margin: 100px auto 0 auto;
-  perspective: 2000px;
-}
-
-.carousel {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  transform-style: preserve-3d; 
-  animation: rotate360 60s infinite forwards linear;
-}
-.carousel__face { 
-  position: absolute;
-  width: 480px;
-  height: 320px;
-  top: 10px;
-  left: 10px;
-  right: 10px;
-  background-size: cover;
-  box-shadow:inset 0 0 0 2000px rgba(105, 104, 104, 0.1);
-  display: flex;
-}
-
-span {
-  margin: auto;
-  font-size: 2rem;
-}
-
-
-.carousel__face:nth-child(1) {
-  background-image:url("images/les_paul.jpeg");
-  transform: rotateY(  0deg) translateZ(430px); }
-.carousel__face:nth-child(2) { 
-  background-image: url("images/Mutt Cutts.jpg");
-  transform: rotateY( 60deg) translateZ(430px); }
-.carousel__face:nth-child(3) {
-  background-image:url("images/CLE sign.jpg");
-  transform: rotateY( 120deg) translateZ(430px); }
-.carousel__face:nth-child(4) {
-  background-image:url("images/Motorcycle.jpg");
-  transform: rotateY(180deg) translateZ(430px); }
-.carousel__face:nth-child(5) { 
-  background-image: url("images/rock3.2.jpg");
-  transform: rotateY(240deg) translateZ(430px); }
-.carousel__face:nth-child(6) { 
-  background-image: url("images/underCrane.jpg");
-  transform: rotateY(300deg) translateZ(430px); }
-
-@keyframes rotate360 {
-  from {
-    transform: rotateY(0deg);
-  }
-  to {
-    transform: rotateY(-360deg);
-  }
-}
 
 
 
@@ -165,7 +105,7 @@ span {
   position: fixed;
   bottom:0;
   display:none;
-  color:rgb(5, 60, 45);
+  color:#fefefe;
   font-size: 50px;
 }
 
