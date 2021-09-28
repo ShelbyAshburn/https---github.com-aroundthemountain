@@ -1,16 +1,6 @@
 /*----*/
 /*mobile friendly*/
-@media all and (max-width: 950px){
-  .header{
-    font-size: 3.0rem;
-   
-  }
-  .main{
-    
-  }  
-  
-  
-}
+
 @media all and (max-width: 500px){
   .icons{
     display: table-footer-group;
