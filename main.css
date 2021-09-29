@@ -87,6 +87,10 @@ p{
 
 
 /*----------projects----------*/
+#boxOne{
+  background-color: #ededed;
+  padding: 10px;
+}
 
 
 #projectsList{
