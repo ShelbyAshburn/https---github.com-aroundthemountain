@@ -87,16 +87,41 @@ p{
 
 
 /*----------projects----------*/
-#boxOne{
-  background-color: #ededed;
-  padding: 10px;
+.boxes{
+  background:linear-gradient(to left, rgb(161, 229, 241) 20%, rgb(83, 84, 85) 70%);
+  display: inline-block;
+  font: large; 
+  border-style: inset;
+  border-color:#049ff8;
 }
 
+#link{
+  color:black;
+}
+#boxOne{
+  padding: 2em;
+  margin: 2em;
+  border-style: inherit;
+  border-color: inherit;
+}
+#boxTwo{
+  padding: 2em;
+  margin: 2em;
+  border-style: inherit;
+  border-color: inherit;
+}#boxThree{
+  padding: 2em;
+  margin: 2em;
+  border-style: inherit;
+  border-color: inherit;
+}
+#boxFour{
+  padding: 2em;
+  margin: 2em;
+  border-style: inherit;
+  border-color: inherit;
+}
 
-#projectsList{
-  display: inline-block;
-  list-style-type: none;
-  font-size: large;
 }
 /*mobile menu and linkdin link*/
 .icons{
@@ -104,7 +129,7 @@ p{
   bottom: 2px;
   display: inline;
   color:#f30b0b;
-  font-size: 50px;
+  font-size: 100px;
 }
 
 .icons:hover{
