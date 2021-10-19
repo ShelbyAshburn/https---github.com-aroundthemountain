@@ -2,7 +2,7 @@
 
 /*----------global styles----------*/
 body {
-  background-color: rgb(15, 14, 14);
+  background-color:#000;
   text-align: center;
   font-family: sans-serif;
   
@@ -32,13 +32,15 @@ p{
 
 .shadowEffect::after{
   content:'';
+  background-size: cover;
+  background-repeat: no-repeat;
   position:absolute;
   top:0;
   left:0;
   width:100%;
   height: 100%;
-  background-image: linear-gradient(to bottom, #fff,#000);
-  opacity: 0.5;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255,0.05),rgba(0, 0, 0,0.7));
+  
 }
 /*-----arounthemountain.com-----*/
 .header{
