@@ -2,7 +2,7 @@
 
 /*----------global styles----------*/
 body {
-  background-color: rgba(1,1,1,1.0);
+  background-color: rgb(15, 14, 14);
   text-align: center;
   font-family: sans-serif;
   
@@ -22,7 +22,7 @@ p{
 
 /*----------index landing page--------*/
 .mountain{
-  background-image: linear-gradient(to bottom, rgba(99,99,99,0.3),rgba(1,1,1,1.0)), url(images/pexels-pixabay-326235.jpg);
+  background:url(images/pexels-pixabay-326235.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   max-width: 100%;
@@ -30,6 +30,16 @@ p{
   
 }
 
+.shadowEffect::after{
+  content:'';
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, #fff,#000);
+  opacity: 0.5;
+}
 /*-----arounthemountain.com-----*/
 .header{
   display: block;
@@ -89,7 +99,7 @@ p{
 /*----------projects----------*/
 .boxes{
   background:linear-gradient(to left, rgb(161, 229, 241) 20%, rgb(83, 84, 85) 70%);
-  display: inline-block;
+  display: inline-flex;
   font: large; 
   border-style: inset;
   border-color:#049ff8;
