@@ -15,18 +15,26 @@ p{
   display: block;
   margin: auto;
   padding: 10px;
-  font-size: 2em;
+  font-size: 2.5rem;
   font-family:"Helvetica", "Times New Roman", "Times", "sans-serif";
   
 }
 
+a:link{
+  color:rgb(34, 96, 179);
+}
+a:visited{
+  color:rgb(102, 161, 238);
+}
+a:hover{
+  color:rgb(105, 198, 241);
+}
 /*----------index landing page--------*/
 .mountain{
-  background:url(images/pexels-pixabay-326235.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   max-width: 100%;
-  max-height: auto;
+  max-height: 960px;
   
 }
 
@@ -39,7 +47,7 @@ p{
   left:0;
   width:100%;
   height: 100%;
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255,0.05),rgba(0, 0, 0,0.7));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255,0.0)50%,rgba(0, 0, 0,1.0));
   
 }
 /*-----arounthemountain.com-----*/
@@ -73,85 +81,25 @@ p{
 }
 /*----------contact----------*/
 
-#contact-p{
-  color:rgba(30, 85, 5, 0.877);
-  position:relative;
-  margin-top: 25px;
-}
-
-/*contact email button*/
-.button-email{
-  box-shadow: 3px 4px 0px 0px #899899;
-	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
-	background-color:#ededed;
-	border-radius:12px;
-	border:1px solid #d6bcd6;
-	display:inline-flex;
-	cursor:pointer;
-	color:#0b0d0e;
-	font-family:Arial;
-	font-size:17px;
-	padding:7px 50px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #e1e2ed;
-  margin-top: 400px;
-}
-
 
 /*----------projects----------*/
-.boxes{
-  background:linear-gradient(to left, rgb(161, 229, 241) 20%, rgb(83, 84, 85) 70%);
-  display: inline-flex;
-  font: large; 
-  border-style: inset;
-  border-color:#049ff8;
-}
 
 #link{
-  color:black;
+  color:rgba(242, 242, 242,0.6);
 }
-#boxOne{
+#boxLink{
+  background-color:rgba(28, 28, 29, 0.3);
+  display: inline-flex;
+  font:large;
+  border-style: inset;
+  border-radius: 4rem;
+  border-color: rgb(32, 24, 23);
   padding: 2em;
   margin: 2em;
-  border-style: inherit;
-  border-color: inherit;
-}
-#boxTwo{
-  padding: 2em;
-  margin: 2em;
-  border-style: inherit;
-  border-color: inherit;
-}#boxThree{
-  padding: 2em;
-  margin: 2em;
-  border-style: inherit;
-  border-color: inherit;
-}
-#boxFour{
-  padding: 2em;
-  margin: 2em;
-  border-style: inherit;
-  border-color: inherit;
+  
 }
 
-
-/*mobile menu and linkdin link*/
 .icons{
-  display:table-footer-group;
-  bottom: 2px;
-  display: inline;
-  color:#f30b0b;
-  font-size: 100px;
-}
-
-.icons:hover{
-  color:rgb(252, 249, 250);
-  
-  
-}
-.linkedIn{
-  position: relative;
-  display: inline;
-  color:rgb(243, 4, 4);
-  font-size: 50px;
+  font-size: 2.5rem;
+  size: 20rem;
 }
