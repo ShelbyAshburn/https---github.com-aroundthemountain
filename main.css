@@ -90,7 +90,7 @@ a:hover{
 #boxLink{
   background-color:rgba(28, 28, 29, 0.3);
   display: inline-flex;
-  font:large;
+  font-size:smaller;
   border-style: inset;
   border-radius: 4rem;
   border-color: rgb(32, 24, 23);
