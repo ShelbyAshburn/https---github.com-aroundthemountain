@@ -8,8 +8,6 @@ body {
   
 }
 
-
-
 p{
   color:rgba(242, 242, 242, 0.7);
   display: block;
@@ -21,6 +19,16 @@ p{
   
 }
 
+.projects{
+  color:rgba(242, 242, 242, 0.7);
+  display: block;
+  margin: auto;
+  padding: 10px;
+  font-size: 2.5rem;
+  font-family:"Helvetica", "Times New Roman", "Times", "sans-serif";
+  text-align: center;
+  
+}
 a:link{
   color:rgb(34, 96, 179);
 }
