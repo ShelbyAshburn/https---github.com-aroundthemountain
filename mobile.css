@@ -1,14 +1,36 @@
 /*--This is more of a 'coming soon' --*/
 
-@media all and (max-width: 768px){
+@media all and (max-width: 1025px){
   body{
-    background-image:url("images/pexels-pixabay-s.jpg");
+    background-image:url("images/pexels-pixabay-m.jpg");
+    width: auto;
+    height: auto;
+
+  }
+  .header{
+    font-size: 3rem;
+    text-align: center;
+  }
+  .tagline{
+    font-size: 1rem;
+    text-align: center;
+  }
+  p{
+    font-size: .5rem;
+    text-align: center;
   }
   .mountain{
     display: none;
   }
   .shadowEffect{
     display: none;
+  }
+  .icons{
+    position: fixed;
+
+  }
+  #boxLink{
+    display: table-column;
   }
 }
   
