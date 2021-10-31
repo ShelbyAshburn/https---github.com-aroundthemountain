@@ -17,6 +17,7 @@ p{
   padding: 10px;
   font-size: 2.5rem;
   font-family:"Helvetica", "Times New Roman", "Times", "sans-serif";
+  text-align: center;
   
 }
 
@@ -79,7 +80,6 @@ a:hover{
   font-family:"Helvetica","Lucida Handwriting" ,"Verdana", "sans-serif" ;
 
 }
-/*----------contact----------*/
 
 
 /*----------projects----------*/
