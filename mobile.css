@@ -9,15 +9,15 @@
     max-height: fit-content;
   }
   .header{
-    font-size: 3rem;
+    font-size: 3em;
     text-align: center;
   }
   .tagline{
-    font-size: 1rem;
+    font-size: 1em;
     text-align: center;
   }
   p{
-    font-size: .5rem;
+    font-size: .5em;
     text-align: center;
   }
   .mountain{
@@ -31,7 +31,8 @@
 
   }
   #boxLink{
-    display: table-column;
+    display: flex;
+    flex-direction: column;
   }
 }
   
