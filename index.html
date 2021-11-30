@@ -1,4 +1,4 @@
-<!--Personal website.-->
+<!--Personal website and "Hello World" .-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -17,23 +17,24 @@
       <div class="shadowEffect"></div>
     <!--<div class="mountain"></div>-->
     <h1 class="header"><i>AroundTheMountain.tech</i></h1>
-    <h3 class="tagline"><i>digital portfolio : please scroll down</i></h3>
-    <p>projects</p>
+    <h2 class="tagline"><i>digital portfolio : please scroll down</i></h2>
+    <p id="about">lorum ipsum</p>
+    <p id="projects">projects</p>
     <!--projects-->
-    
-    <div id="boxLink">
-      <a href="https://stackoverflow.com/" style="text-decoration:none;" target="_blank"><p id="link">coming soon!</p></a>
+    <div class="container">
+      <div id="boxLink">
+        <a href="https://stackoverflow.com/" style="text-decoration:none;" target="_blank"><p id="link">coming soon!</p></a>
+      </div>  
+      <div id="boxLink">
+        <a href="https://css-tricks.com/" style="text-decoration:none;" target="_blank"><p id="link">coming soon!</p></a>
+      </div>
+      <div id="boxLink">
+        <a href="https://hackerrank.com/" style="text-decoration:none;" target="_blank"><p id="link">coming soon!</p></a>
+      </div>
+      <div id="boxLink">
+        <a href="https://github.com/TheShelb" style="text-decoration:none;" target="_blank"><p id="link">my Github</p></a>
+      </div>
     </div>
-    <div id="boxLink">
-      <a href="https://css-tricks.com/" style="text-decoration:none;" target="_blank"><p id="link">coming soon!</p></a>
-    </div>
-    <div id="boxLink">
-      <a href="https://hackerrank.com/" style="text-decoration:none;" target="_blank"><p id="link">coming soon!</p></a>
-    </div>
-    <div id="boxLink">
-      <a href="https://github.com/TheShelb/https---github.com-TheShelb-Digital_Ashburn" style="text-decoration:none;" target="_blank"><p id="link">my Github</p></a>
-    </div>
-    
     <p>Shelby comin' round the mountain when he comes.</p>
 
     <div>
@@ -43,6 +44,14 @@
         <a class="" href="https://github.com/TheShelb/https---github.com-TheShelb-Digital_Ashburn" style="text-decoration: none;" target="_blank">My Github</a>
       </div> 
     </div>
+    <script>
+      if (self == top){
+        document.documentElement.style.display = 'black';
+      }
+      else{
+        top.location = self.location;
+      }
+    </script>
   </body>
   <footer>
     
