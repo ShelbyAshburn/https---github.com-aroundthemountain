@@ -1,6 +1,6 @@
 /*--This is under constant construction. --*/
 
-@media all and (max-width: 1025px){
+@media all and (max-width: 600px){
   body{
     background-image:url("images/pexels-pixabay-m.jpg");
     background-size: cover;

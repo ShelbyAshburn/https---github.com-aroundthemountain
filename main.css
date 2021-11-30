@@ -21,7 +21,7 @@ p{
   
 }
 
-.projects{
+#projects{
   color:rgba(242, 242, 242, 0.7);
   display: block;
   margin: auto;
@@ -100,6 +100,7 @@ a:hover{
 #boxLink{
   background-color:rgba(28, 28, 29, 0.3);
   display: inline-flex;
+  overflow: auto;
   flex-direction: row;
   font-size:smaller;
   border-style: inset;
